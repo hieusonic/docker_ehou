@@ -33,7 +33,7 @@ services:
       - backend-network
       - frontend-network
   nextjs:
-    build: .
+    build: /opt/app/ehou.vn
     container_name: next-ehou
     restart: always
     depends_on:
